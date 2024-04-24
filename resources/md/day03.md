@@ -109,7 +109,7 @@
 ---
 ### 3. `select` 태그 학습
 - `<select>`태그는 말 그대로 여러 선택값을 보여주는 태그이다.
-- <select> 태그 안에서 <option></option>태그로 목록을 지정한다.
+- `<select>` 태그 안에서 `<option></option>`태그로 목록을 지정한다.
 - 이 때, `selected` 속성을 사용하면 먼저 선택되어진다.
 - `multiple` 속성값은 모든 목록들을 펼쳐지게 한다.
   ```html
