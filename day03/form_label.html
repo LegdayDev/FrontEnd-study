@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Label</title>
+</head>
+<body>
+<form>
+    <label for="name">user</label>
+    <input type="text" id="name" placeholder="이름을 입력해주세요."><br><br>
+
+    <label for="tel">tel</label>
+    <input type="tel" id="tel" placeholder="전화번호를 입력하세요.">
+    <hr>
+    <label for="email">email</label>
+    <input type="email" id="email" placeholder="이메일을 입력하세요."><br><br>
+
+    <label for="color">색상표</label>
+    <input type="color" id="color"><br><br>
+
+    <label for="date">날짜</label>
+    <input type="date" id="date"><br><br>
+
+    <label for="search">검색</label>
+    <input type="search" id="search"><br><br>
+</form>
+</body>
+</html>
+
+<!--
+    입력 양식은 form 태그로 먼저 영역을 설정하고 내부에 input 태그를 생성한다.
+    form 태그가 없으면 input 에 담겨있는 값들이 서버로 전송되지 않는다.
+
+    <label> 태그의 for 속성값은 input 태그의 id 값과 같게 해줘야 한 쌍이 된다.
+    label 과 input 을 같이 쓴느 이유는 input 태그의 영역이 좁기 떄문이다
+
+    placeholder 속성은 힌트를 보여준다.
+-->

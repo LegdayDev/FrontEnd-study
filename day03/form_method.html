@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Method</title>
+</head>
+<body>
+<form action="#" method="GET" accept-charset="UTF-8">
+    <fieldset>
+        <legend>개인 정보 입력</legend>
+        <label for="name">이름 :</label>
+        <input type="text" id="name" name="username"><br><br>
+
+        <label for="age">나이 :</label>
+        <input type="text" id="age" name="age"><br><br>
+
+        <input type="submit">
+    </fieldset>
+</form>
+
+</body>
+</html>
+
+<!--
+    <fieldset> 태그는 관련 데이터를 양식으로 그룹화 하는데 사용된다.
+    이 때, <legend> 태그를 같이 사용하는데 제목을 정의한다.
+
+    <form>태그의 action 은 form 데이터가 전달될 URL 을 명시한다.
+    예를 들면 action="https://localhost:8080/form.jsp 로 기입하면 localhost 주소의 8080 포트로 https 프로토콜을 이용하여 form.jsp 파일에 전송한다는 의미이다.
+
+    method 는 HTTP 메서드가 들어간다.
+    HTTP 메서드에는 GET , POST, PATCH, PUT, DELETE 가 있다.
+
+    accept-charset 속성에는 문자 인코딩 방식을 정의해주면 된다.
+-->
