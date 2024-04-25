@@ -16,3 +16,9 @@
 > 1. `<input>` 태그 학습
 > 2. `<form>` 태그 학습
 > 3. `<select>` 태그 학습
+
+### [4일차 학습](https://github.com/LegdayDev/Frontend-Study/blob/master/resources/md/day04.md)
+> 1. `<textarea>` 학습
+> 2. 블록요소, 인라인요소, 인라인 블럭 요소 학습
+> 3. 시멘틱태그 학습
+> 4. CSS 기초
