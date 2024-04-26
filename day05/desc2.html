@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Desc 2</title>
+    <style>
+        /*id 가 header 와 자식 뿐 아니라 모든 h1 태그에 스타일 적용*/
+        #header h1{
+            color: red;
+        }
+
+        #section h1{
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <h1 class="title">후손 선택자</h1>
+    <div id="nav">
+        <h1>Navigation</h1>
+        <h2>네비게이션</h2>
+    </div>
+</div>
+<div id="section">
+    <h1 class="title">애국가</h1>
+    <p>
+        동해물과 백두산이 마르고 닳도록
+    <p>하느님이 보우하사 우리나라 만세
+    </p>
+</div>
+</body>
+</html>
+
+<!--
+    id값이 header 인 태그의 자식을 포함한 모든 태그들에 스타일을 적용할 때는 #hedaer 태그명{...} 을 적어준다.
+-->

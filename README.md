@@ -22,3 +22,11 @@
 > 2. 블록요소, 인라인요소, 인라인 블럭 요소 학습
 > 3. 시멘틱태그 학습
 > 4. CSS 기초
+
+### [5일차 학습](https://github.com/LegdayDev/Frontend-Study/blob/master/resources/md/day05.md)
+> 1. 속성 선택자
+> 2. 자식 선택자
+> 3. 테이블태그 CSS 적용
+> 4. 반응 선택자
+> 5. 구조 선택자
+> 6. 상태 선택자

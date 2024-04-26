@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>State</title>
+    <style>
+        input:enabled {
+            background-color: red
+        }
+
+        input:disabled {
+            background-color: gray;
+        }
+
+        input:focus {
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+<h2>기본 input</h2>
+<input value="가능">
+
+<h2>disabled input</h2>
+<input disabled="disabled" value="불가능">
+
+<h2>focus input</h2>
+<input value="불가능">
+
+</body>
+</html>
+
+<!--
+    상태 선택자 : 입력 양식의 상태를 선택할 때
+    :checked- 체크 상태인 input 태그 선택
+    :focus- input 태그 클릭시
+    :enabled- 사용가능한 input
+    :disabled- 사용불가능한 input
+-->

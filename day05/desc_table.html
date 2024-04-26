@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector Desc Table</title>
+    <style>
+        table > tbody {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<table border="1">
+    <thead>
+    <tr>
+        <th>이름</th>
+        <th>지역</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>홍길동</td>
+        <td>부산 남구 용호동</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
+<!--
+    table 을 만들 때 제목행은 <thead>로 묶어주고 나머지 행들은 <tbody>로 묶어줘야 하지만
+    생략해도 만들어진다. 그래서 <tr> , <th>에 스타일을 입힐려면 <tbody> 나 <thead>를 거쳐가야 한다.
+-->

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Structure</title>
+    <style>
+        li {
+            list-style: none;
+            float: left;
+            padding: 15px;
+        }
+
+        li:first-child {
+            border-radius: 10px 0 0 10px;
+            background-color: #1edd7a;
+        }
+
+        li:nth-child(even){
+            background-color: blue;
+        }
+
+        li:nth-child(odd){
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>첫 번째</li>
+    <li>두 번째</li>
+    <li>세 번째</li>
+    <li>네 번째</li>
+    <li>다섯 번째</li>
+    <li>여섯 번째</li>
+    <li>일곱 번째</li>
+</ul>
+</body>
+</html>
+<!--
+    구조 선택자 : 특정 위치에 있는 태그를 선택할 때 사용
+    :nth-child(수열, 또는 순번) : 예를들어 2n 이라는 수열이 오면 2,4,6 번째 태그들에 스타일이 적용된다. 순번은 차례대로 (1 ~ N )
+    :nth-child(odd) , :nth-child(even) : 홀수, 짝수번째 적용
+    :first-child : 첫번째 태그에 스타일이 적용
+    :last-child : 가장 마지막 순번에 스타일 적용
+
+    list-style 은 블릿마커를 제어한다.
+        - 기본은 원형블릿마커(disc) : •
+        - 숫자순서(decimal) : 1, 2, ...
+        - circle : ◦
+        - square : ■
+
+    boder-radius : 요소의 테두리 를 만든다(좌상,우상,우하,좌하 순서대로 px값 기입)
+-->

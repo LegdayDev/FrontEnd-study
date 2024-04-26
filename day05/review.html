@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Review</title>
+</head>
+<body>
+<h1>글 작성하기</h1>
+<form action="#" method="post">
+    <table>
+        <tr>
+            <th><label for="username"><strong>작성자</strong></label></th>
+            <td><input type="text" id="username" name="username"><br></td>
+        </tr>
+
+        <tr>
+            <th><label for="userId"><strong>아이디</strong></label></th>
+            <td><input type="text" id="userId" name="userId"><br></td>
+        </tr>
+
+        <tr>
+            <th><label for="email_prefix"><strong>이메일</strong></label></th>
+            <td><input type="email" id="email_prefix" name="email"><label for="email_suffix"> @ </label>
+                <input type="email" id="email_suffix" name="email"><br></td>
+        </tr>
+
+        <tr>
+            <th><label for="phone_prefix"><strong>휴대폰</strong></label></th>
+            <td>
+                <select>
+                    <option>010</option>
+                    <option>011</option>
+                    <option>070</option>
+                    <option>017</option>
+                </select>
+                - <input type="tel" id="phone_prefix" name="phone_prefix">
+                - <input type="tel" id="phone_suffix" name="phone_suffix"><br>
+            </td>
+        </tr>
+
+        <tr>
+            <th><label for="title"><strong>글제목</strong></label></th>
+            <td><input type="text" id="title" name="title"><br></td>
+        </tr>
+
+        <tr>
+            <th><label for="content"><strong>내용</strong></label></th>
+            <td><textarea id="content" rows="8" cols="30" name="content"></textarea><br></td>
+        </tr>
+        <tr>
+            <th><input type="hidden"></th>
+            <td><button type="submit">제출</button></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
