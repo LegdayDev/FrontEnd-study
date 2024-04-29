@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cascading</title>
+    <style>
+        h1 {
+            color: green;
+        }
+
+        p {
+            color: blue;
+        }
+
+        h1{
+            color: brown; !important;
+        }
+
+    </style>
+</head>
+<body>
+<h1>레드향</h1>
+<p style="color: red">껍질에 붉은 빛이 돌아 레드향이라 불린다.</p>
+<p>레드향은 한라봉과 귤을 교배한 것으로</p>
+<p>일반 귤보다 2 ~ 3배 크고, 과육이 불고 통통하다.</p>
+</body>
+</html>
+
+<!--
+    똑같은 태그에 여러 스타일을 적으면 맨 마지막에 선언한 스타일이 적용된다.
+    우선순위를 주기위해서는 !important 를 적어준다.
+    인라인스타일은 <style> 태그보다 우선순위를 가진다.
+-->

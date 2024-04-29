@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Size</title>
+    <style>
+        p:nth-child(1)
+        p:nth-child(2) {
+            font-size: 16px; /*기본값*/
+        }
+
+        p:nth-child(3) {
+            font-size: 24px;
+        }
+
+        p:nth-child(4) {
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+<p>동해물과 백수단이 마르고 닳도록</p>
+<p>동해물과 백두산이 마르고 닳도록</p>
+<p>동해물과 백두산이 마르고 닳도록</p>
+<p>동해물과 백두산이 마르고 닳도록</p>
+</body>
+</html>
+
+<!--
+    px(pixel)은 절대길이 단위이다.
+    1px=0.265mm
+
+    모니터에 따라서 상대적인 크기를 가진다.
+-->
+
+<!--
+    CSS 적용 우선 순위
+      1. 속성값 뒤에 !important
+        - 예시) important-black { color:red !important }
+      2. style 을 직접 지정한 속성 - 인라인 속성
+        - 예시) <span style="font-size:20px;">temp</span>\
+      3. #id 로 지정한 속성
+      4. 태그로 지정한 속성
+      5. 상위 객체에 의해 상속된 속성
+-->

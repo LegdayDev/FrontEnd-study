@@ -30,3 +30,10 @@
 > 4. 반응 선택자
 > 5. 구조 선택자
 > 6. 상태 선택자
+
+### [6일차 학습](https://github.com/LegdayDev/Frontend-Study/blob/master/resources/md/day06.md)
+> 1. CSS - 폰트 크기
+> 2. CSS 우선순위
+> 3. 영역 설정
+> 4. display 속성
+> 5. background 이미지
