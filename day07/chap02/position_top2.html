@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position Top2</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .box:nth-child(1) {
+            background-color: red;
+            left: 0;
+            top: 0;
+            z-index: 100;
+        }
+
+        .box:nth-child(2) {
+            background-color: green;
+            left: 50px;
+            top: 50px;
+            z-index: 50;
+        }
+
+        .box:nth-child(3) {
+            background-color: blue;
+            left: 100px;
+            top: 100px;
+            z-index: 1;
+        }
+
+        body > div {
+            width: 400px;
+            height: 100px;
+            border: 3px solid black;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+<h1>absolute Test</h1>
+<div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+<h1>absolute Test</h1>
+</body>
+</html>
+
+<!--
+    상위요소를 기준으로 절대 위치를 잡는 absolute를 적용하려면
+    상위요소 position 속성에 relation 속성값을 넣는다.
+-->

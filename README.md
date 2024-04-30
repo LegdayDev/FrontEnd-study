@@ -37,3 +37,7 @@
 > 3. 영역 설정
 > 4. display 속성
 > 5. background 이미지
+
+### [7일차 학습](https://github.com/LegdayDev/Frontend-Study/blob/master/resources/md/day07.md)
+> 1. CSS - 폰트 설정
+> 2. CSS - 위치 속성

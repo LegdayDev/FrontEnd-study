@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position Top3</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .box:nth-child(1) {
+            background-color: red;
+            left: 0;
+            top: 0;
+            z-index: 100;
+        }
+
+        .box:nth-child(2) {
+            background-color: green;
+            left: 50px;
+            top: 50px;
+            z-index: 50;
+        }
+
+        .box:nth-child(3) {
+            background-color: blue;
+            left: 100px;
+            top: 100px;
+            z-index: 1;
+        }
+
+        body > div {
+            width: 400px;
+            height: 100px;
+            border: 3px solid black;
+            position: relative;
+            /*overflow: hidden;*/
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+
+<h1>absolute Test</h1>
+<div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+<h1>absolute Test</h1>
+</body>
+</html>
+
+<!--
+    overflow 속성에 hidden을 주면 영역을 벗어난 부분은 감춘다.
+
+    overflow 속성값 중 scorll 을 하면 벗어난 부분을 볼 수 있게 스크롤이 생긴다.
+-->
