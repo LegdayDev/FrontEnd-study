@@ -1,0 +1,32 @@
+.container {
+    padding-top: 100px;
+    background: beige;
+    height: 100vh;
+
+    display: flex;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.item1{
+    background-color: #d7bee2;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+    align-self: center;
+}
+
+.item2{
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #a9c7d8;
+}
+.item3{
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: #c0df9f;
+}

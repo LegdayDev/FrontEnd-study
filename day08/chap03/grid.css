@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    /*grid-template-columns: 100px 100px 100px;*/
+    /*grid-template-rows: 100px 100px 100px;*/
+
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 50px 50px;
+}
+
+.item1 {
+    grid-column: 1/3;
+}
+
+/*
+    - display : grid; 를 정의하면 그리드 박스를 사용한다.
+    - 부모 컨테이너를 grid 로 지정하면 자식은 gird 셀(요소)가 된다.
+    - 그리드의 속성은 다음과 같다.
+        - grid-template-columns 은 각 열을 기준으로 100px 짜리 3개를 만든다.
+        - grid-template-rows 는 각 행을 기준으로 100px 짜리 3개를 만든다.
+        - repeat(반복횟수, 사이즈) 함수를 실행하면 편하게 설정할 수 있다.
+*/

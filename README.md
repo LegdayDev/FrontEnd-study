@@ -41,3 +41,9 @@
 ### [7일차 학습](https://github.com/LegdayDev/Frontend-Study/blob/master/resources/md/day07.md)
 > 1. CSS - 폰트 설정
 > 2. CSS - 위치 속성
+
+### [8일차 학습](https://github.com/LegdayDev/Frontend-Study/blob/master/resources/md/day08.md)
+> 1. CSS - 단위
+> 2. rm / rem 학습 - 외부 css
+> 3. 반응형 웹 Layout - Flex
+> 4. 반응형 웹 Layout - Grid

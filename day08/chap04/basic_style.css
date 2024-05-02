@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;w
+    border: 1px solid #181818;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.color1 {background-color:aqua;}
+.color2 {background-color:darkgray;}
+.color3 {background-color:pink;}
+.color4 {background-color:paleturquoise;}
+.color5 {background-color:chartreuse;}
