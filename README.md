@@ -47,3 +47,7 @@
 > 2. rm / rem 학습 - 외부 css
 > 3. 반응형 웹 Layout - Flex
 > 4. 반응형 웹 Layout - Grid
+
+### [9일차 학습](https://github.com/LegdayDev/Frontend-Study/blob/master/resources/md/day09.md)
+> 1. CSS - 반응형 웹 Viewport
+> 2. CSS - 반응형 웹 Media Query

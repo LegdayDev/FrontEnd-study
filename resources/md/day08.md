@@ -397,7 +397,7 @@
   .image6 {grid-area: f;}
   .image7 {grid-area: g;}
   ```
-  ![img.png](img.png)
+  ![img.png](../images/day08/img16.png)
 
 - [참고자료](https://www.w3schools.com/css/css_grid.asp)
 ---
